@@ -1,0 +1,33 @@
+.section6 {
+  text-align: center;
+  margin-bottom: 55px;
+  align-items: center;
+  align-content: center;
+}
+
+.a-FullUser-guidance {
+  text-decoration: none;
+  color: black;
+  pointer-events: none;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  /* padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 76px;
+  padding-left: 76px; */
+}
+
+.a-container-fulluserGuidance {
+  background-color: #fcd535;
+  border-radius: 3px;
+  text-align: center;
+  /* height: 50px; */
+  padding-top: 25px;
+  padding-bottom: 25px;
+  align-items: center;
+  align-content: center;
+  width: 95vw;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,254 @@
+.Section2 {
+  margin-bottom: 45px;
+}
+
+.WidgetNFT {
+  background-color: white;
+  /* height: 450px; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.6em;
+  padding-left: 10px;
+  margin-bottom: 25px;
+  margin-top: 5px;
+}
+
+.container-Apelogo-img {
+  width: 70px;
+}
+
+.container-p-bored-img {
+  display: flex;
+  align-items: center;
+}
+
+.All-list-NFT-Container {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 25px;
+  column-gap: 25px;
+  background-color: white;
+  height: 1000px;
+  overflow: hidden;
+  justify-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* MQ for all List NFT Container */
+
+@media screen and (min-width: 373px) {
+  .All-list-NFT-Container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .All-list-NFT-Container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .All-list-NFT-Container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .All-list-NFT-Container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .All-list-NFT-Container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+/* MQ for all List NFT Container End */
+
+.All-list-NFT-Container:hover {
+  overflow-y: auto;
+  border: 1px solid rgb(41, 40, 40);
+  box-shadow: inset -4px -1px 7px 4px rgba(0, 0, 0, 0.75);
+}
+
+.NFT1-container {
+  /* height: 340px; */
+  /* width: 268px; */
+  /* width: 70%; */
+  /* border: 1px solid blue; */
+  box-sizing: border-box;
+  position: relative;
+}
+
+.NFT1-container figure {
+  border: 1px rgb(236, 235, 235) solid;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 7px;
+}
+
+.caption-Container-NFT1 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-sizing: border-box;
+  height: 50px;
+}
+
+.P-NFT1-container1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3px;
+  margin-bottom: 4px;
+  align-items: center;
+  align-content: center;
+}
+
+.P-NFT1-container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.blackandwhitecontainer {
+  display: flex;
+}
+
+.blackandwhite-Img-container {
+  width: 17px;
+}
+
+.pp-firsttext {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.pppp-Eth {
+  color: gray;
+  font-size: 0.8em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-Buynow {
+  background-color: #fcd535;
+  border: none;
+  border-radius: 3px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  /* margin-left: 5px;
+  margin-right: 5px; */
+  margin-bottom: 3px;
+  display: none;
+  width: 100%;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.NFT1-container:hover .button-Buynow {
+  transition: all 1.6s linear;
+  display: block;
+  margin-top: 20px;
+  /* transform: scaleY(2.5); */
+}
+
+.NFT1-container:hover .caption-Container-NFT1 {
+  transform: scaleY(1.4);
+
+  transition: all 2s linear;
+}
+
+.ppp-Amount {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ppp-Price-ppp {
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  font-size: 0.8em;
+}
+
+.OpenSea-Logo-Container {
+  position: absolute;
+  top: 6.7px;
+  right: 12.2px;
+  width: 25px;
+  opacity: 0.6;
+}
+
+.OpenSea-Logo-Container img {
+  border-radius: 3px;
+}
+
+.NFT1,
+.NFT2,
+.NFT3,
+.NFT4,
+.NFT5,
+.NFT6,
+.NFT7,
+.NFT8,
+.NFT9,
+.NFT10,
+.NFT11,
+.NFT12,
+.NFT13,
+.NFT14,
+.NFT15,
+.NFT16,
+.NFT17,
+.NFT18,
+.NFT19,
+.NFT20 {
+  border-radius: 10px;
+}
+
+.NFT71,
+.NFT72,
+.NFT73,
+.NFT74,
+.NFT75,
+.NFT76,
+.NFT77,
+.NFT78,
+.NFT79,
+.NFT80,
+.NFT81,
+.NFT82,
+.NFT83,
+.NFT84,
+.NFT85,
+.NFT86,
+.NFT87,
+.NFT88,
+.NFT89,
+.NFT90,
+.NFT91,
+.NFT92,
+.NFT93,
+.NFT94,
+.NFT95,
+.NFT96,
+.NFT97,
+.NFT98,
+.NFT99,
+.NFT100 {
+  border-radius: 10px;
+}

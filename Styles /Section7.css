@@ -1,0 +1,168 @@
+sEction7 {
+  margin-bottom: 145px;
+}
+
+.p-FAQ-section7 {
+  margin-left: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.Ul-section7 {
+  margin-left: 11px;
+  list-style-type: none;
+  margin-bottom: 25px;
+}
+
+.Ul-section7 li {
+  /* height: 61px; */
+  align-content: center;
+  align-items: center;
+  /* line-height: 25px; */
+}
+
+.input-sellNFTmysterybox,
+.input-BuyNftmysterybox,
+.input-BinanceMarketplace,
+.input-nonfungible {
+  display: none;
+}
+
+.ul-SellNFTmysterybox,
+.ul-buynftmysterybox,
+.ul-binancemarketplace,
+.ul-nonfungibletokenn {
+  display: none;
+  position: static;
+}
+
+[id^="NonFungibleToken"]:checked + .ul-nonfungibletokenn {
+  display: block;
+}
+
+[id^="BinanceMarketPlaceNFT"]:checked + .ul-binancemarketplace {
+  display: block;
+}
+
+[id^="BuyNFTMysterybox"]:checked + .ul-buynftmysterybox {
+  display: block;
+}
+
+[id^="SellNftMysterybox"]:checked + .ul-SellNFTmysterybox {
+  display: block;
+}
+
+.label-SellNFTmysterybox,
+.Label-BuynftMysterybox,
+.label-BinanceMarketplace,
+.label-nonfungibeltoken {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Li-nonfungibleToken {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+  border-bottom: 0.6px solid rgb(171, 170, 170);
+}
+
+.Li-BuyNftMysterybox {
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+  border-bottom: 0.6px solid rgb(171, 170, 170);
+}
+
+.Li-SellNftMysterybox {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+  border-bottom: 0.6px solid rgb(171, 170, 170);
+}
+
+.ul-nonfungibletokenn p {
+  line-height: 23px;
+  color: #707a8a;
+}
+
+.ul-binancemarketplace p {
+  line-height: 23px;
+  color: #707a8a;
+  margin-bottom: 5px;
+}
+
+.ul-buynftmysterybox p {
+  line-height: 23px;
+  color: #707a8a;
+  margin-bottom: 5px;
+}
+
+.ul-SellNFTmysterybox p {
+  line-height: 23px;
+  color: #707a8a;
+}
+
+.aa-nonfungible {
+  text-decoration: none;
+  color: #c99400;
+  pointer-events: none;
+}
+
+.aa-buynftmysterybox {
+  text-decoration: none;
+  color: #c99400;
+  pointer-events: none;
+}
+
+.aa-sellnftmysterybox {
+  text-decoration: none;
+  color: #c99400;
+  pointer-events: none;
+}
+.Li-binanceMarketplace {
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+  border-bottom: 0.6px solid rgb(171, 170, 170);
+}
+
+.aa-BinanceNFTmarketplace {
+  text-decoration: none;
+  color: #c99400;
+  pointer-events: none;
+}
+
+.ul-binancemarketplace li {
+  margin-left: 10px;
+  line-height: 20px;
+  color: #707a8a;
+  margin-bottom: 5px;
+  list-style-type: disc;
+}
+
+.ul-buynftmysterybox li {
+  margin-left: 10px;
+  line-height: 20px;
+  color: #707a8a;
+  margin-bottom: 5px;
+  list-style-type: disc;
+}
+
+.expand-more-MarketPlace,
+.expand-more-TokenNft,
+.expand-more-BuyNft,
+.expand-more-SellNft {
+  position: absolute;
+  right: 0;
+  background: white;
+  display: none;
+}
+
+.Li-nonfungibleToken:hover .expand-more-TokenNft,
+.Li-binanceMarketplace:hover .expand-more-MarketPlace,
+.Li-BuyNftMysterybox:hover .expand-more-BuyNft,
+.Li-SellNftMysterybox:hover .expand-more-SellNft {
+  display: block;
+}

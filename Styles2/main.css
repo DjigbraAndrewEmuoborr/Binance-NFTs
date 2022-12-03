@@ -1,0 +1,187 @@
+/* Section (2)-----8 9 and 10 */
+
+/* Section 8 */
+.Section8 {
+  /* margin-top: 145px; */
+
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.p-pleaseContactUs {
+  margin-left: 11px;
+  color: #707a8a;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 4px;
+}
+
+.evenlope-container {
+  margin-left: 9px;
+  display: flex;
+}
+
+/* .fa-envelope {
+  color: #707a8a;
+  margin-right: 6px;
+} */
+
+.container-img-Email {
+  width: 27.7px;
+  margin-right: 6px;
+}
+
+.aa-nftemail {
+  color: #707a8a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Section 8 End */
+
+/* Section 9 */
+.ul-section9 {
+  list-style-type: none;
+  margin-left: 11px;
+  line-height: 45px;
+}
+
+.ul-section9 ul {
+  line-height: 30px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 2px;
+}
+
+.ul-section9 ul a {
+  text-decoration: none;
+  color: #707a8a;
+  font-size: 0.9em;
+}
+
+.input-Support,
+.input-Service,
+.input-Product,
+.input-AboutUs {
+  display: none;
+}
+
+.ul-Service-dropdown,
+.Ul-support-dropdown,
+.ul-product-dropdown,
+.ul-about-dropdown {
+  display: none;
+  position: static;
+  list-style-type: none;
+}
+
+[id^="AboutUs"]:checked + .ul-about-dropdown {
+  display: block;
+}
+
+[id^="Pproduct"]:checked + .ul-product-dropdown {
+  display: block;
+}
+
+[id^="Sservice"]:checked + .ul-Service-dropdown {
+  display: block;
+}
+
+[id^="SSupport"]:checked + .Ul-support-dropdown {
+  display: block;
+}
+
+.Label-Support,
+.Label-Service,
+.Label-Pproduct,
+.Label-aboutus {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Label-aboutus p {
+  color: rgba(0, 0, 0, 0.813);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+.Label-Pproduct p {
+  color: rgba(0, 0, 0, 0.813);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+.Label-Support p {
+  color: rgba(0, 0, 0, 0.813);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+.Label-Service p {
+  color: rgba(0, 0, 0, 0.813);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+.minus-sign-Support,
+.minus-sign-Service,
+.minus-sign-Products,
+.minus-sign-AboutUs {
+  position: absolute;
+  right: 0;
+  background: white;
+  display: none;
+}
+
+.Li-Support:hover .minus-sign-Support,
+.Li-Service:hover .minus-sign-Service,
+.Li-Products:hover .minus-sign-Products,
+.Li-aboutUs:hover .minus-sign-AboutUs {
+  display: block;
+}
+
+/* Section 9 End */
+
+/* Section 10 */
+.container-Community-P {
+  height: 51px;
+  margin-left: 11px;
+  margin-top: 10px;
+}
+
+.container-Community-P p {
+  color: rgba(0, 0, 0, 0.813);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+.Container-Icon-section10 {
+  height: 50px;
+  margin-left: 11px;
+
+  font-size: 25px;
+}
+
+.fa-instagram {
+  margin-right: 27px;
+  margin-left: 27px;
+  /* opacity: 0.4; */
+  color: rgb(183, 189, 198);
+}
+
+.fa-telegram:hover,
+.fa-twitter:hover,
+.fa-instagram:hover {
+  /* opacity: 1; */
+  color: black;
+  cursor: pointer;
+}
+
+.fa-telegram,
+.fa-twitter {
+  /* opacity: 0.4; */
+  color: rgb(183, 189, 198);
+}
+
+/* Section 10 End */
+
+/* Section (2)-----8 9 and 10 */

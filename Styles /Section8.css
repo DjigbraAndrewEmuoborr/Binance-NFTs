@@ -1,0 +1,33 @@
+.Section8 {
+  /* margin-top: 145px; */
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.p-pleaseContactUs {
+  margin-left: 11px;
+  color: #707a8a;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 4px;
+}
+
+.evenlope-container {
+  margin-left: 9px;
+  display: flex;
+}
+
+/* .fa-envelope {
+  color: #707a8a;
+  margin-right: 6px;
+} */
+
+.container-img-Email {
+  width: 27.7px;
+  margin-right: 6px;
+}
+
+.aa-nftemail {
+  color: #707a8a;
+  font-family: Arial, Helvetica, sans-serif;
+}

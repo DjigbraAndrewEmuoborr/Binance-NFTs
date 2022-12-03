@@ -1,0 +1,75 @@
+header {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(236, 234, 234);
+  position: sticky;
+  background-color: white;
+  top: 0;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.Home-Container-img {
+  width: 32px;
+  margin-bottom: 4px;
+}
+
+/* .homeImgheader {
+} */
+
+.BINANCE-headerlogo {
+  color: var(--BinanceColor);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-top: 2.5px;
+  margin-left: 3px;
+  font-size: 19px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.p-header-NFT {
+  font-size: 19px;
+  /* letter-spacing: 0.9px; */
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 2.5px;
+
+  margin-left: 4px;
+}
+
+.Container-Search-Img-header {
+  width: 20px;
+}
+
+.Container-Bar-img-header {
+  width: 20px;
+  margin-right: 16px;
+  margin-left: 30px;
+}
+
+.binancelogo-header {
+  display: flex;
+  /* width: 120px; */
+  height: 24px;
+  margin-left: 15px;
+}
+
+.Middle-Side-header {
+  display: flex;
+  margin-left: -9px;
+}
+
+.RightSide-header {
+  display: flex;
+}
+
+.WrapHeader-Left {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-left: 5px;
+}

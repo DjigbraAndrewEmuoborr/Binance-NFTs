@@ -1,0 +1,510 @@
+.BuyNow-Container {
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+/* .BuyNow-Container p {
+  font-size: 0.5em;
+} */
+
+.Container-BoredAppeVVerify {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 3px;
+}
+
+.Bored-Ape-verify-pp-Container {
+  display: flex;
+  align-items: center;
+}
+
+.img-container-yellowbadge {
+  width: 25px;
+  margin-left: 3px;
+}
+
+.love-container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.love-container p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7em;
+  font-weight: bold;
+  padding-left: px;
+  align-items: center;
+  padding-top: 3px;
+}
+
+.img-container-Cells {
+  width: 22px;
+}
+
+.love-container-img {
+  width: 23px;
+}
+
+.img-container-Inclamation {
+  width: 22px;
+}
+
+.Bored-Ape-verify-pp-Container p {
+  font-size: 0.8em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.Bored-Ape-verify-pp-Container p:hover {
+  color: Var(--BinanceColor);
+}
+
+.NFT1BuyNow {
+  width: 85vw;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px rgb(236, 235, 235) solid;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 9px;
+}
+
+.NFT1BuyNow img {
+  border-radius: 10px;
+}
+
+.right-Bored-Ape-verify-pp-Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  width: 110px;
+}
+
+.pppp-BoredAppe-club {
+  font-weight: bold;
+  color: black;
+  font-size: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 230px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 25px;
+}
+
+/* MQ for ppp-boredappe  */
+
+@media screen and (min-width: 322px) {
+  .pppp-BoredAppe-club {
+    font-weight: bold;
+    color: black;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: nowrap;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 25px;
+  }
+}
+
+/* MQ for ppp-boredappe End */
+
+.Container-Listed-from {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.Container-Listed-from p {
+  color: rgb(146, 144, 144);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-img-OpenSea-White {
+  width: 24px;
+  margin-left: 2px;
+}
+
+.container-img-Ssr {
+  width: 35px;
+  margin-left: 2px;
+}
+
+.Container-Price-container {
+  text-align: center;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  margin-top: 15px;
+}
+
+.Container-Ends-In-container p {
+  text-align: center;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  margin-top: 15px;
+}
+
+.Label-Details,
+.Label-Description,
+.Label-PriceHistory,
+.Label-Offers,
+.Label-Activity {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Ul-main {
+  list-style-type: none;
+  margin-bottom: 50px;
+  line-height: 35px;
+}
+
+/* ul li {
+  list-style-type: none;
+} */
+
+.Input-Details,
+.Input-Description,
+.Input-PriceHistory,
+.Input-Offer,
+.Input-Activity {
+  display: none;
+}
+
+.Ul-ul-Details,
+.Ul-ul-description,
+.ul-Ul-PriceHistory,
+.ul-Ul-Offers,
+.ul-Ul-Activity {
+  display: none;
+  position: static;
+}
+
+[id^="Details-ID"]:checked + .Ul-ul-Details {
+  display: block;
+}
+
+[id^="ACctivityy"]:checked + .ul-Ul-Activity {
+  display: block;
+}
+[id^="Offerss"]:checked + .ul-Ul-Offers {
+  display: block;
+}
+
+[id^="PriceHistory-Id"]:checked + .ul-Ul-PriceHistory {
+  display: block;
+}
+
+[id^="Description-ID"]:checked + .Ul-ul-description {
+  display: block;
+}
+
+.Container-for-Eth-price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.Container-for-Eth-price p {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.container-img-for-eth-price {
+  width: 20px;
+}
+
+.pp-TheMysteryBoxSmart-pp p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7em;
+  color: gray;
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+.CopyContainer {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.CopyContainer button {
+  background: var(--BinanceColor);
+  border: none;
+  color: white;
+  z-index: 2;
+}
+
+.CopyContainer input {
+  margin-left: -1px;
+  border: 1px solid gray;
+  border-radius: 2px;
+  width: 200px;
+  text-align: center;
+}
+
+.container-barcode-wallet {
+  width: 65vw;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-ppp-waitingg-deposit {
+  text-align: center;
+  /* justify-content: center;
+  justify-items: center; */
+}
+
+.Click-Spins-Icon {
+  display: flex;
+  color: var(--BinanceColor);
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+
+.Note-purchasing-NFT {
+  background-color: #fafafa;
+  display: flex;
+  margin-bottom: 30px;
+
+  border-radius: 2px;
+  margin-top: 3px;
+  padding: 12px;
+}
+
+.Note-purchasing-NFT img {
+  width: 19px;
+  height: 19px;
+  margin-right: 5px;
+}
+
+.Note-purchasing-NFT p {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
+  line-height: 17px;
+}
+
+.Container-details {
+  display: flex;
+  align-items: center;
+}
+
+.Container-details p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-img-details {
+  width: 25px;
+  margin-right: 7px;
+}
+
+.Container-Description {
+  display: flex;
+  align-items: center;
+}
+
+.Container-Description p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-img-description {
+  width: 25px;
+  margin-right: 7px;
+}
+
+.Container-PriceHistory {
+  display: flex;
+}
+
+.Container-PriceHistory p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 3px;
+}
+
+.Container-Eth-PricHistory {
+  display: flex;
+  margin-left: 20px;
+  position: relative;
+  align-items: center;
+}
+
+.Container-Offeree p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 3px;
+}
+
+.container-Activitty p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 3px;
+}
+
+.No-data-PriceHistory,
+.No-data-Offers,
+.No-data-Activity {
+  text-align: center;
+  white-space: nowrap;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  margin-top: 6px;
+  font-size: 0.8rem;
+}
+
+.Img-container-figure-PriceHistory,
+.Img-container-figure-Offers,
+.Img-container-figure-Activity {
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-pp-eth-usd {
+  background-color: white;
+  border: 1px solid gray;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 2px;
+  padding-bottom: 10px;
+  position: absolute;
+  bottom: -97px;
+  display: none;
+}
+
+.Container-Eth-PricHistory:hover .container-pp-eth-usd {
+  display: block;
+}
+
+.container-pp-eth-usd p {
+  font-family: Arial, Helvetica, sans-serif;
+
+  margin-top: 10px;
+}
+
+.Ul-ul-Details li {
+  display: flex;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 3px;
+  line-height: 40px;
+}
+
+.Pp-category-pp,
+.PP-Creator-pp,
+.Pp-Owner-pp,
+.Pp-Network-pp,
+.Pp-ContractAddress-pp,
+.Pp-TokenId-pp {
+  color: gray;
+  font-size: 0.9rem;
+}
+
+table {
+  margin-top: 2px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .WidgetCountDown-time {
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 10px;
+  margin-bottom: 100px;
+  z-index: -3;
+} */
+
+.Days-Tr {
+  font-weight: bold;
+  padding-top: 7px;
+}
+
+.time-Tr {
+  color: gray;
+}
+
+.Widget-countdown-time {
+  width: 35vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+.rightSide-Owner-Container {
+  display: flex;
+  align-items: center;
+}
+
+.RightSide-Creator-Container {
+  display: flex;
+  align-items: center;
+}
+
+.Container-img-rainbow-Owner,
+.Container-img-rainbow-Creator {
+  width: 27px;
+}
+
+.Li-Details,
+.Li-Description,
+.Li-PriceHistory,
+.Li-Offers,
+.Li-Activity {
+  position: relative;
+}
+
+.Li-Details:hover .material-caretUp,
+.Li-Description:hover .material-caretUp-description,
+.Li-PriceHistory:hover .material-caretUp-PriceHistory,
+.Li-Offers:hover .material-caretUp-Offers,
+.Li-Activity:hover .material-caretUp-Activity {
+  display: block;
+}
+
+.material-caretUp-PriceHistory,
+.material-caretUp-Offers,
+.material-caretUp-Activity,
+.material-caretUp-description,
+.material-caretUp {
+  color: gray;
+  float: right;
+  background-color: white;
+  padding: 1px;
+  position: absolute;
+  margin-top: 6px;
+  display: none;
+}
+
+.Material-caret-down-PriceHistory,
+.Material-caret-down-Offers,
+.Material-caret-down-Activity,
+.Material-caret-down-description,
+.Material-caret-down-details {
+  color: gray;
+}
+
+/* A (Anchor href) */
+
+a {
+  text-decoration: none;
+}
+
+/* A End */
+
+.opennftNavMenubarOpen {
+  display: block;
+}
