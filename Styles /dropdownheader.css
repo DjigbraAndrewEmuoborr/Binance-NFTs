@@ -113,16 +113,16 @@
 .container-gift-register-img {
   position: absolute;
   width: 16px;
-  left: 113px;
-  top: 18px;
+  left: 103px;
+  top: 13px;
 }
 
 /* MQ 375 gifts register img */
 
 @media screen and (min-width: 375px) {
   .container-gift-register-img {
-    left: 140px;
-    top: 18px;
+    left: 130px;
+    top: 13px;
   }
 }
 
