@@ -141,6 +141,30 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+.pp-firsttext-boredape{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+@media screen and (max-width: 500px) and (min-width: 370px) {
+ .pp-firsttext-boredape {
+    font-size: 0.6em;
+   font-family: Arial, Helvetica, sans-serif;
+  }
+}
+
+
+
+
+
+
+
+
+
 .pppp-Eth {
   color: gray;
   font-size: 0.8em;
