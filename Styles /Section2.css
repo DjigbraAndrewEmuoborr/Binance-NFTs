@@ -152,7 +152,7 @@ h1 {
 
 @media screen and (max-width: 500px) and (min-width: 370px) {
  .pp-firsttext-boredape {
-    font-size: 0.6em;
+    font-size: 1em;
    font-family: Arial, Helvetica, sans-serif;
   }
 }
